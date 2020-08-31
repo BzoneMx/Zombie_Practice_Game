@@ -7,21 +7,37 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePoint;
     public LayerMask playerMask;
 
+    public LineRenderer rayLine;
+
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+            StartCoroutine(Shoot());
         }
     }
 
-    void Shoot()
+    IEnumerator Shoot()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(firePoint.position, firePoint.right, Mathf.Infinity, playerMask);
+        int maxLength = 50;
 
         if (hitInfo)
         {
-            Debug.Log(hitInfo.transform.name);
+            //Enemy script (get component)
+            //if enemy isnt null damage em
+            //instantiate impact effect
+
+            rayLine.SetPosition(0, firePoint.position);
+            rayLine.SetPosition(1, hitInfo.point);
+        } else
+        {
+            rayLine.SetPosition(0, firePoint.position);
+            rayLine.SetPosition(1, firePoint.position + firePoint.right * maxLength);
         }
+
+        rayLine.enabled = true;
+        yield return new WaitForSeconds(0.02f);
+        rayLine.enabled = false;
     }
 }
