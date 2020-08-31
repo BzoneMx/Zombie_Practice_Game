@@ -2246,7 +2246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1662889581, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1662889582, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_Parameters.colorGradient.atime0
@@ -2326,7 +2326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1662889582, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1662889582, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r

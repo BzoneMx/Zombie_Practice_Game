@@ -8,6 +8,7 @@ public class PlayerShoot : MonoBehaviour
     public LayerMask playerMask;
 
     public LineRenderer rayLine;
+    public GameObject impactFx;
 
     void Update()
     {
@@ -26,7 +27,7 @@ public class PlayerShoot : MonoBehaviour
         {
             //Enemy script (get component)
             //if enemy isnt null damage em
-            //instantiate impact effect
+            Instantiate(impactFx, hitInfo.point, Quaternion.identity);
 
             rayLine.SetPosition(0, firePoint.position);
             rayLine.SetPosition(1, hitInfo.point);

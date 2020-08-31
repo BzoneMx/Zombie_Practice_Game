@@ -323,3 +323,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   rayLine: {fileID: 1662889582}
+  impactFx: {fileID: 3563204973955526829, guid: 0c48e2b08b9769049b2cf60d0b0b70e3,
+    type: 3}
