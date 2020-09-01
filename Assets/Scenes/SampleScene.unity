@@ -2244,6 +2244,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1478874281, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1662889581, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2331,6 +2335,10 @@ PrefabInstance:
     - target: {fileID: 1662889582, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
       value: 0.965923
+      objectReference: {fileID: 0}
+    - target: {fileID: 1662889583, guid: 5a23b946046bb33449e092429aa5c534, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: 3353228726756690554, guid: 5a23b946046bb33449e092429aa5c534,
         type: 3}
