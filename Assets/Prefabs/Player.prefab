@@ -328,3 +328,4 @@ MonoBehaviour:
   bulletFx: {fileID: 1590050392888896080, guid: bd7aa75d213454a43a2f9f52525fcb65,
     type: 3}
   angleOffset: -90
+  damage_stats: 30

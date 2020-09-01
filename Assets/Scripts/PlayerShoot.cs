@@ -12,6 +12,8 @@ public class PlayerShoot : MonoBehaviour
     public GameObject bulletFx;
     public float angleOffset;
 
+    public float damage_stats;
+
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -29,8 +31,13 @@ public class PlayerShoot : MonoBehaviour
 
         if (hitInfo)
         {
-            //Enemy script (get component)
-            //if enemy isnt null damage em
+            Enemy enemy = hitInfo.transform.gameObject.GetComponent<Enemy>();
+
+            if(enemy != null)
+            {
+                enemy.TakeDamage(damage_stats);
+            }
+
             Instantiate(impactFx, hitInfo.point, Quaternion.identity);
             //Destroy impactFx
 

@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 1126073629}
   - component: {fileID: 1126073628}
   - component: {fileID: 1126073627}
+  - component: {fileID: 1126073630}
   m_Layer: 9
   m_Name: spritesheet_characters_0
   m_TagString: Untagged
@@ -475,6 +476,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1126073630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126073626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68e55c9c3bb6d74595a7ae4101e643e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &1861538169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334396809313544437, guid: 5a23b946046bb33449e092429aa5c534,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3769
       objectReference: {fileID: 0}
     - target: {fileID: 8643089564529014783, guid: 5a23b946046bb33449e092429aa5c534,
         type: 3}
