@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     private Camera cam;
     private Vector2 mousePos;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

@@ -318,14 +318,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2cab3ccfe9c2804cb2b9751e87aadf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 7334396809313544437}
-  playerMask:
-    serializedVersion: 2
-    m_Bits: 512
+  data: {fileID: 11400000, guid: c70ed5e20b184544ca7bba976df9eeab, type: 2}
   rayLine: {fileID: 1662889582}
   impactFx: {fileID: 3563204973955526829, guid: 0c48e2b08b9769049b2cf60d0b0b70e3,
     type: 3}
   bulletFx: {fileID: 1590050392888896080, guid: bd7aa75d213454a43a2f9f52525fcb65,
     type: 3}
-  angleOffset: -90
-  damage_stats: 30
+  firePoint: {fileID: 7334396809313544437}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 512

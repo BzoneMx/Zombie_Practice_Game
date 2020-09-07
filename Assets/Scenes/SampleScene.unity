@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 1126073627}
   - component: {fileID: 1126073630}
   m_Layer: 9
-  m_Name: spritesheet_characters_0
+  m_Name: testenemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
